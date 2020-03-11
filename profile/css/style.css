@@ -1050,11 +1050,11 @@ input[type="text"] {
 
 .gototop {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  top: 20px;
+  left: 20px;
   z-index: 999;
   opacity: 0;
-  visibility: hidden;
+
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -1290,5 +1290,6 @@ input[type="text"] {
 .js .animate-box {
   opacity: 0;
 }
+
 
 /*# sourceMappingURL=style.css.map */
